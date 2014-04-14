@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= siteTitle%> <%= current.source%></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<style type="text/css">
+  		<%- include bootstrap/css/bootstrap.min.css %>
+  	</style>
+    <style>
+      <%- include main.css %>
+    </style>
+  </head>
+  <body>
+  	<header>
+  		<%- partial("_partials/navBar") %>
+  	</header>
+    <div class="container">
+      <div class="jumbotron">
+        חושבים להוציא תעודה ביומטרית?<br />
+        <h1>אל תעשו את זה!!</h1>
+        <h3>הוצאת תעודת זהות או דרכון ביומטריים יכניסו אותכם למאגר הביומטרי.
+         <em>משם, כבר לא תוכלו לצאת</em>
+        </h3>
+      </div>
+    </div>
+    <footer>
+    	<div class="container">
+    		מוגש על ידי החברים מארגון
+         <a href="no2bio.org">no2bio</a>
+         . ישראל צריכה תעודה חכמה, לא עוד הרפתקה מסוכנת
+    	</div>
+    </footer>
+  </body>
+</html>
