@@ -1,0 +1,55 @@
+/*
+ nobioYellow: #FFE300;
+ nobioRed: #D22027;
+*/
+#heb {
+  direction: rtl;
+}
+
+header {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+footer {
+  border-top: 1px solid #888;
+  font-size: 0.7em;
+  direction: rtl;
+  text-align: center;
+}
+
+.panel a {
+	color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #FFE300;
+}
+
+#heb .panel-footer {
+	text-align: left;
+}
+
+.panel-footer {
+  text-align: right;
+}
+
+.panel-body {
+  height: 5em;
+}
+
+.jumbotron {
+  background-color: #FFE300;
+}
+
+.jumbotron em {
+  color: #D22027;
+  font-weight: bold;
+}
+
+.jumbotron h1 {
+  color: #D22027;
+  font-weight: bold;
+  text-shadow: 0 0 10px white;
+}
