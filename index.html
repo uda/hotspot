@@ -19,7 +19,7 @@
  nobioYellow: #FFE300;
  nobioRed: #D22027;
 */
-#heb {
+#hebrew {
   direction: rtl;
 }
 
@@ -33,6 +33,7 @@ footer {
   font-size: 0.7em;
   direction: rtl;
   text-align: center;
+  font-weight: bold;
 }
 
 .panel a {
@@ -44,7 +45,7 @@ a:hover {
   background-color: #FFE300;
 }
 
-#heb .panel-footer {
+#hebrew .panel-footer {
 	text-align: left;
 }
 
@@ -74,17 +75,17 @@ a:hover {
   </style>
 </head>
   <body>
-    <header>
-        <a href="#eng" class="btn btn-default">English</a>
-        <a href="#heb" class="btn btn-default">עברית</a>
-    </header>
+    <div id="heb" class="page-header text-center">
+      <a class="btn btn-default" href="#eng">English</a>
+      <a class="btn btn-default" href="#heb">עברית</a>
+    </div>
     <div class="container">
-      <div id="heb">
+      <div id="hebrew">
         <div class="alert alert-info">
           גלישה חופשית לאנשים חופשיים
           באדיבות ארגון
           no2bio
-          -
+          &mdash;
           <strong>
   ישראל צריכה תעודה חכמה,
    לא הרפתקה מסוכנת
@@ -96,7 +97,6 @@ a:hover {
             <em>משם כבר לא תוכלו לצאת.</em>
           </h3>
         </div>
-
         <div class="row">
           <div class="col-md-4">
             <div class="panel panel-warning">
@@ -141,11 +141,14 @@ a:hover {
             </div>
           </div>
         </div>
-    </div>
-
-    <div id="eng">
+      </div>
+      <div id="eng" class="page-header text-center">
+        <a class="btn btn-default" href="#eng">English</a>
+        <a class="btn btn-default" href="#heb">עברית</a>
+      </div>
       <div class="alert alert-info">
         Free WiFi for Free People
+        &mdash;
         <strong>
           Israel Needs a smart ID, not a dangerous adventure
         </strong>
@@ -198,14 +201,19 @@ a:hover {
           </div>
         </div>
       </div>
-
-  </div>
-
+      <div id="eng" class="page-header text-center">
+        <a class="btn btn-default" href="#eng">English</a>
+        <a class="btn btn-default" href="#heb">עברית</a>
+      </div>
+    </div>
     <footer>
       <div class="container">
-      מוגש על ידי החברים מארגון
-      <a href="no2bio.org">no2bio</a>
-      . ישראל צריכה תעודה חכמה, לא עוד הרפתקה מסוכנת
+      מוגש על ידי פעילי
+      <a href="no2bio.org">no2bio</a> &mdash;
+      ישראל צריכה תעודה חכמה, לא עוד הרפתקה מסוכנת.
+      &bull;
+      <a href="http://occupywifi.org">Occupy WiFi</a> &mdash;
+      אינטרנט חינם ככלי מחאה.
       </div>
     </footer>
   </body>
